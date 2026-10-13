@@ -39,11 +39,11 @@ def ordenamientoMezcla(a, izq, der):
 a = []
 
 for i in range(6):
-    numero = int(input(f"Ingrese el numero {i + 1}: "))
+    numero = int(input(f"ingrese el numero {i + 1}: "))
     a.append(numero)
 
-print("Lista original:", a)
+print("lista original:", a)
 
 ordenamientoMezcla(a, 0, len(a) - 1)
 
-print("Lista ordenada:", a)
+print("lista ordenada:", a)
